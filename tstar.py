@@ -6,6 +6,9 @@
 
 from brythonserver.turtle import *
 
+def abs(v):
+    return (v[0]**2 + v[1]**2)**0.5
+
 color('red', 'yellow')
 begin_fill()
 while True:
